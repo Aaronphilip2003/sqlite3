@@ -9,7 +9,7 @@ cursor.execute("SELECT * FROM customers")
 
 # cursor.execute("SELECT * FROM customers WHERE first_name='AARON'")
 
-# cursor.fetchone()
+# cursor.fetchone() # to fetch only one entry
 # cursor.fetchmany(3)
 items=cursor.fetchall()
 
